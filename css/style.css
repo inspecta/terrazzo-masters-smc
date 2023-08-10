@@ -2,8 +2,8 @@
   font-family: "icomoon";
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
   src: url("../fonts/icomoon/icomoon.eot?srf3rx") format("embedded-opentype"),
-    url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"),
-    url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"),
+    /* url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"),
+    url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), */
     url("../fonts/icomoon/icomoon.svg?srf3rx") format("svg");
   font-weight: normal;
   font-style: normal;
@@ -24,6 +24,7 @@ body {
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7);
 }
+
 @media screen and (max-width: 992px) {
   body {
     font-size: 16px;
@@ -31,15 +32,16 @@ body {
 }
 
 a {
-  color: #ff3300;
+  color: #fa5329;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+
 a:hover,
 a:active,
 a:focus {
-  color: #ff3300;
+  color: #fa5329;
   outline: none;
   text-decoration: none !important;
 }
@@ -65,6 +67,7 @@ figure {
   float: left;
   width: 100%;
 }
+
 figure figcaption {
   font-size: 16px;
   width: 80%;
@@ -73,6 +76,7 @@ figure figcaption {
   font-style: italic;
   font-family: "Quicksand", Arial, sans-serif;
 }
+
 @media screen and (max-width: 480px) {
   figure figcaption {
     width: 100%;
@@ -81,7 +85,7 @@ figure figcaption {
 
 ::selection {
   color: #fff;
-  background: #ff3300;
+  background: #fa5329;
 }
 
 #colorlib-page {
@@ -194,7 +198,7 @@ figure figcaption {
   bottom: 7px;
   left: 0;
   right: 0;
-  background-color: #ff3300;
+  background-color: #fa5329;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
@@ -223,7 +227,7 @@ figure figcaption {
 }
 
 #colorlib-aside #colorlib-main-menu ul li.colorlib-active a {
-  color: #ff3300;
+  color: #fa5329;
 }
 
 #colorlib-aside #colorlib-main-menu ul li.colorlib-active a:after {
@@ -281,7 +285,7 @@ figure figcaption {
 #colorlib-aside .colorlib-footer ul li a:focus {
   text-decoration: none;
   outline: none;
-  color: #ff3300;
+  color: #fa5329;
 }
 
 #colorlib-main {
@@ -362,7 +366,7 @@ figure figcaption {
   bottom: 0;
   right: -15px;
   padding: 30px;
-  background: #ff3300;
+  background: #fa5329;
 }
 
 @media screen and (max-width: 768px) {
@@ -497,6 +501,7 @@ body.offcanvas .colorlib-nav-toggle {
   width: 100%;
   display: block;
 }
+
 @media screen and (max-width: 768px) {
   .colorlib-blog,
   .colorlib-work,
@@ -532,11 +537,13 @@ body.offcanvas .colorlib-nav-toggle {
   width: 60px;
   height: 4px;
   content: "";
-  background: #ff3300;
+  background: #fa5329;
 }
+
 .colorlib-heading span {
   display: block;
 }
+
 @media screen and (max-width: 768px) {
   .colorlib-heading {
     margin-bottom: 3em;
@@ -594,12 +601,14 @@ body.offcanvas .colorlib-nav-toggle {
   background: #e6e6e6;
   z-index: -1;
 }
+
 .steps .icon {
   display: block;
   margin-bottom: 20px;
   position: relative;
   z-index: 0;
 }
+
 .steps .icon span {
   display: table;
   width: 40px;
@@ -613,16 +622,19 @@ body.offcanvas .colorlib-nav-toggle {
   border-radius: 50%;
   z-index: 1;
 }
+
 .steps .icon span i {
   display: table-cell;
   vertical-align: middle;
   color: #000;
 }
+
 .steps:hover i {
-  color: #ff3300 !important;
+  color: #fa5329 !important;
 }
+
 .steps.active i {
-  color: #ff3300 !important;
+  color: #fa5329 !important;
 }
 
 .fancy-collapse-panel .panel-default > .panel-heading {
@@ -715,6 +727,7 @@ body.offcanvas .colorlib-nav-toggle {
 .move-bottom {
   margin-top: 100px;
 }
+
 @media screen and (max-width: 768px) {
   .move-bottom {
     margin-top: 0;
@@ -728,6 +741,7 @@ body.offcanvas .colorlib-nav-toggle {
   margin-bottom: 40px;
   position: relative;
 }
+
 .colorlib-feature .colorlib-icon {
   position: absolute;
   top: 0;
@@ -742,27 +756,32 @@ body.offcanvas .colorlib-nav-toggle {
   -ms-border-radius: 2px;
   border-radius: 2px;
 }
+
 .colorlib-feature .colorlib-icon i {
   display: table-cell;
   vertical-align: middle;
-  color: #ff3300;
+  color: #fa5329;
   font-size: 60px;
   height: 100px;
 }
+
 @media screen and (max-width: 1200px) {
   .colorlib-feature .colorlib-icon i {
     font-size: 40px;
   }
 }
+
 .colorlib-feature .colorlib-text {
   padding-left: 120px;
   width: 100%;
 }
+
 .colorlib-feature .colorlib-text h2,
 .colorlib-feature .colorlib-text h3 {
   margin: 0;
   padding: 0;
 }
+
 .colorlib-feature .colorlib-text h3 {
   font-weight: 500;
   margin-bottom: 20px;
@@ -771,13 +790,16 @@ body.offcanvas .colorlib-nav-toggle {
   letter-spacing: 3px;
   text-transform: uppercase;
 }
+
 .colorlib-feature.colorlib-feature-sm .colorlib-text {
   margin-top: 30px;
 }
+
 .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
-  color: #ff3300;
+  color: #fa5329;
   font-size: 40px;
 }
+
 @media screen and (max-width: 1200px) {
   .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
     font-size: 28px;
@@ -790,11 +812,13 @@ body.offcanvas .colorlib-nav-toggle {
   background: #fff;
   margin-bottom: 3em;
 }
+
 @media screen and (max-width: 768px) {
   .blog-entry {
     margin-bottom: 3em;
   }
 }
+
 .blog-entry .blog-img {
   width: 100%;
   float: left;
@@ -803,6 +827,7 @@ body.offcanvas .colorlib-nav-toggle {
   z-index: 1;
   margin-bottom: 25px;
 }
+
 .blog-entry .blog-img img {
   position: relative;
   max-width: 100%;
@@ -815,6 +840,7 @@ body.offcanvas .colorlib-nav-toggle {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+
 .blog-entry .desc h3 {
   font-size: 16px;
   margin-bottom: 25px;
@@ -823,10 +849,12 @@ body.offcanvas .colorlib-nav-toggle {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
 .blog-entry .desc h3 a {
   color: #000;
   text-decoration: none;
 }
+
 .blog-entry .desc span {
   display: block;
   margin-bottom: 20px;
@@ -836,9 +864,11 @@ body.offcanvas .colorlib-nav-toggle {
   letter-spacing: 3px;
   font-weight: 400;
 }
+
 .blog-entry .desc span small i {
   color: #999999;
 }
+
 .blog-entry:hover .blog-img img {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
@@ -1011,7 +1041,7 @@ body.offcanvas .colorlib-nav-toggle {
   width: 100px;
   height: 100px;
   font-size: 50px;
-  color: #ff3300;
+  color: #fa5329;
   background: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1098,9 +1128,9 @@ body.offcanvas .colorlib-nav-toggle {
 
 .pagination li a:hover,
 .pagination li a:focus {
-  background: #ff3300;
+  background: #fa5329;
   color: #fff;
-  border: 1px solid #ff3300;
+  border: 1px solid #fa5329;
 }
 
 @media screen and (max-width: 768px) {
@@ -1110,15 +1140,15 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .pagination li.active a {
-  background: #ff3300;
-  border: 1px solid #ff3300 !important;
+  background: #fa5329;
+  border: 1px solid #fa5329 !important;
 }
 
 .pagination li.active a:hover,
 .pagination li.active a:focus {
-  background: #ff3300;
+  background: #fa5329;
   color: #fff;
-  border: 1px solid #ff3300 !important;
+  border: 1px solid #fa5329 !important;
 }
 
 .btn {
@@ -1148,9 +1178,9 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .btn-primary {
-  background: #ff3300;
+  background: #fa5329;
   color: #fff;
-  border: 2px solid #ff3300;
+  border: 2px solid #fa5329;
 }
 
 .btn-primary:hover,
