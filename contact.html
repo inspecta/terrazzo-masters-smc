@@ -34,7 +34,8 @@
 	<link rel="icon" type="image/x-icon" href="./images/favicon.ico">
 
 	<script src="js/modernizr-2.6.2.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBy5aFG-6wYWlhOC60KEHTRzjj8qTCtCKM&libraries=places"
+		async defer></script>
 
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -112,7 +113,15 @@
 									<i class="fas fa-phone"></i>
 								</div>
 								<div class="colorlib-text">
-									<p><a href="tel://">+256 704 152667</a></p>
+									<p><a>+256 777 021409</a></p>
+								</div>
+							</div>
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="fab fa-whatsapp"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="https://wa.me/256704152667" target="_blank">+256 704 581206</a></p>
 								</div>
 							</div>
 						</div>
@@ -157,9 +166,28 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/jquery.countTo.js"></script>
 
-	<script
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-	<script src="js/google_map.js"></script>
+	<script>
+		function initMap() {
+			// Location coordinates (latitude and longitude)
+			var latitude = 0.40575819971189603;   // Replace with your latitude
+			var longitude = 32.588083030684416; // Replace with your longitude
+
+			// Create a map centered at the specified location
+			var map = new google.maps.Map(document.getElementById('map'), {
+				center: { lat: latitude, lng: longitude },
+				zoom: 15 // Adjust the zoom level as needed
+			});
+
+			// Add a marker at the specified location
+			var marker = new google.maps.Marker({
+				position: { lat: latitude, lng: longitude },
+				map: map,
+				title: 'Your Location' // Tooltip for the marker
+			});
+		}
+	</script>
+	<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBy5aFG-6wYWlhOC60KEHTRzjj8qTCtCKM&libraries=places&callback=initMap"></script>
 
 	<script src="js/main.js"></script>
 
@@ -171,10 +199,6 @@
 
 		gtag('config', 'UA-23581568-13');
 	</script>
-	<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854"
-		integrity="sha512-bjgnUKX4azu3dLTVtie9u6TKqgx29RBwfj3QXYt5EKfWM/9hPSAI/4qcV5NACjwAo8UtTeWefx6Zq5PHcMm7Tg=="
-		data-cf-beacon='{"rayId":"7f2fb5166ca54ecc","version":"2023.7.0","b":1,"token":"cd0b4b3a733644fc843ef0b185f98241","si":100}'
-		crossorigin="anonymous"></script>
 </body>
 
 </html>
