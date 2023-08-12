@@ -9,8 +9,6 @@
   font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
-
 /* =======================================================
 *
 * 	Template Style 
@@ -41,7 +39,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #fa5329;
+  color: #ff3300;
   outline: none;
   text-decoration: none !important;
 }
@@ -85,7 +83,7 @@ figure figcaption {
 
 ::selection {
   color: #fff;
-  background: #fa5329;
+  background: #ff3300;
 }
 
 #colorlib-page {
@@ -132,13 +130,13 @@ figure figcaption {
 
 #colorlib-aside .img-logo {
   width: 100px;
+  margin-top: 30px;
 }
 
 #colorlib-aside #colorlib-logo {
   text-align: right;
   font-weight: 700;
   font-size: 22px;
-  font-family: 'Poiret One', cursive;
   margin: 1.5em 0 3em 0;
   display: block;
   width: 100%;
@@ -198,7 +196,7 @@ figure figcaption {
   bottom: 7px;
   left: 0;
   right: 0;
-  background-color: #fa5329;
+  background-color: #ff3300;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
@@ -227,7 +225,7 @@ figure figcaption {
 }
 
 #colorlib-aside #colorlib-main-menu ul li.colorlib-active a {
-  color: #fa5329;
+  color: #ff3300;
 }
 
 #colorlib-aside #colorlib-main-menu ul li.colorlib-active a:after {
@@ -285,7 +283,7 @@ figure figcaption {
 #colorlib-aside .colorlib-footer ul li a:focus {
   text-decoration: none;
   outline: none;
-  color: #fa5329;
+  color: #ff3300;
 }
 
 #colorlib-main {
@@ -366,7 +364,7 @@ figure figcaption {
   bottom: 0;
   right: -15px;
   padding: 30px;
-  background: #fa5329;
+  background: #ff3300;
 }
 
 @media screen and (max-width: 768px) {
@@ -386,7 +384,7 @@ figure figcaption {
 #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
   margin: 0;
   padding: 0;
-  color: black;
+  color: #fff;
   font-family: "Quicksand", Arial, sans-serif;
 }
 
@@ -438,14 +436,16 @@ figure figcaption {
   border: 1px solid #fff;
   background: #fff !important;
 }
+
 #colorlib-hero
   .flexslider
   .slider-text
   > .slider-text-inner
   .btn.btn-learn:hover {
-  background: transparent !important;
-  border: 1px solid #000 !important;
+  background: #ffc5b6 !important;
+  border: 1px solid #000 !important;  
 }
+
 @media screen and (max-width: 768px) {
   #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
     width: 100%;
@@ -537,7 +537,7 @@ body.offcanvas .colorlib-nav-toggle {
   width: 60px;
   height: 4px;
   content: "";
-  background: #fa5329;
+  background: #ff3300;
 }
 
 .colorlib-heading span {
@@ -630,11 +630,11 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .steps:hover i {
-  color: #fa5329 !important;
+  color: #ff3300 !important;
 }
 
 .steps.active i {
-  color: #fa5329 !important;
+  color: #ff3300 !important;
 }
 
 .fancy-collapse-panel .panel-default > .panel-heading {
@@ -760,7 +760,7 @@ body.offcanvas .colorlib-nav-toggle {
 .colorlib-feature .colorlib-icon i {
   display: table-cell;
   vertical-align: middle;
-  color: #fa5329;
+  color: #ff3300;
   font-size: 60px;
   height: 100px;
 }
@@ -796,7 +796,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
-  color: #fa5329;
+  color: #ff3300;
   font-size: 40px;
 }
 
@@ -1041,7 +1041,7 @@ body.offcanvas .colorlib-nav-toggle {
   width: 100px;
   height: 100px;
   font-size: 50px;
-  color: #fa5329;
+  color: #ff3300;
   background: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1128,9 +1128,9 @@ body.offcanvas .colorlib-nav-toggle {
 
 .pagination li a:hover,
 .pagination li a:focus {
-  background: #fa5329;
+  background: #ff3300;
   color: #fff;
-  border: 1px solid #fa5329;
+  border: 1px solid #ff3300;
 }
 
 @media screen and (max-width: 768px) {
@@ -1140,15 +1140,15 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .pagination li.active a {
-  background: #fa5329;
-  border: 1px solid #fa5329 !important;
+  background: #ff3300;
+  border: 1px solid #ff3300 !important;
 }
 
 .pagination li.active a:hover,
 .pagination li.active a:focus {
-  background: #fa5329;
+  background: #ff3300;
   color: #fff;
-  border: 1px solid #fa5329 !important;
+  border: 1px solid #ff3300 !important;
 }
 
 .btn {
@@ -1178,9 +1178,9 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .btn-primary {
-  background: #fa5329;
+  background: #ff3300;
   color: #fff;
-  border: 2px solid #fa5329;
+  border: 2px solid #ff3300;
 }
 
 .btn-primary:hover,
