@@ -365,6 +365,7 @@ figure figcaption {
   right: -15px;
   padding: 30px;
   background: #ff3300;
+  border-top-left-radius: 20px;
 }
 
 @media screen and (max-width: 768px) {
