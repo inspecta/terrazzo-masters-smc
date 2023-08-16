@@ -306,7 +306,7 @@ figure figcaption {
   }
 }
 
-#colorlib-hero {
+/* #colorlib-hero {
   min-height: 500px;
   background: #fff
     url(https://preview.colorlib.com/theme/balay/images/loader.gif) no-repeat
@@ -315,7 +315,7 @@ figure figcaption {
   float: left;
   margin-bottom: 10em;
   clear: both;
-}
+} */
 
 .flex-direction-nav {
   display: none;
@@ -399,6 +399,7 @@ figure figcaption {
 @media screen and (max-width: 768px) {
   #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
     font-size: 28px;
+    font-weight: 500;
   }
 }
 #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
